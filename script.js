@@ -9,11 +9,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Alternativa 1", 
-                afirmação: "Afirmação da alternativa 1"
+                afirmação: "Afirmação"
             },
             {
                 texto: "Alternativa 2",
-            afirmação: "Afirmação da alternativa 2"
+            afirmação: "Afirmação"
     }]  
     },
 
@@ -22,11 +22,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Alternativa 1", 
-                afirmação: "Afirmação da alternativa 1"
+                afirmação: "Afirmação"
             },
             {
                 texto: "Alternativa 2",
-            afirmação: "Afirmação da alternativa 2"
+            afirmação: "Afirmação"
     }]
     },
 
@@ -35,11 +35,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Alternativa 1",
-                afirmação: "Afirmação da alternativa 1"
+                afirmação: ""
              },
              {
                 texto: "Alternativa 2",
-            afirmação: "Afirmação da alternativa 2"
+            afirmação: ""
     }]
     },
 ];
@@ -70,7 +70,7 @@ function mostraAlternativas() {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2049...bla bla bla bla";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
